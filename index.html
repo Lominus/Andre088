@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Saya</title>
+    <title>Chat Andre Ai</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -359,7 +359,7 @@
 
         const callAndreAi = async (prompt, imageUrl = null) => {
             showTypingIndicator();
-            const apiKey = ""; // API key will be provided automatically in runtime
+            const apiKey = "AIzaSyD5w83borgoqmFbgHuF1DmrjXxILDCd1hM"; // API key will be provided automatically in runtime
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
             const selectedMode = aiModeSelector.value;
             let systemPrompt = "";
